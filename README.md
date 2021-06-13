@@ -1,79 +1,41 @@
-# ramsey/uuid
+<p align="center"><img src="/art/logo.svg" alt="Logo Laravel Sail"></p>
 
-[![Source Code][badge-source]][source]
-[![Latest Version][badge-release]][release]
-[![Software License][badge-license]][license]
-[![PHP Version][badge-php]][php]
-[![Build Status][badge-build]][build]
-[![Coverage Status][badge-coverage]][coverage]
-[![Total Downloads][badge-downloads]][downloads]
+<p align="center">
+    <a href="https://packagist.org/packages/laravel/sail">
+        <img src="https://img.shields.io/packagist/dt/laravel/sail" alt="Total Downloads">
+    </a>
+    <a href="https://packagist.org/packages/laravel/sail">
+        <img src="https://img.shields.io/packagist/v/laravel/sail" alt="Latest Stable Version">
+    </a>
+    <a href="https://packagist.org/packages/laravel/sail">
+        <img src="https://img.shields.io/packagist/l/laravel/sail" alt="License">
+    </a>
+</p>
 
-ramsey/uuid is a PHP library for generating and working with universally unique
-identifiers (UUIDs).
+## Introduction
 
-This project adheres to a [Contributor Code of Conduct][conduct]. By
-participating in this project and its community, you are expected to uphold this
-code.
+Sail provides a Docker powered local development experience for Laravel that is compatible with macOS, Windows (WSL2), and Linux. Other than Docker, no software or libraries are required to be installed on your local computer before using Sail. Sail's simple CLI means you can start building your Laravel application without any previous Docker experience.
 
-Much inspiration for this library came from the [Java][javauuid] and
-[Python][pyuuid] UUID libraries.
+#### Inspiration
 
+Laravel Sail is inspired by and derived from [Vessel](https://github.com/shipping-docker/vessel) by [Chris Fidao](https://github.com/fideloper). If you're looking for a thorough introduction to Docker, check out Chris' course: [Shipping Docker](https://serversforhackers.com/shipping-docker).
 
-## Installation
+## Official Documentation
 
-The preferred method of installation is via [Composer][]. Run the following
-command to install the package and add it as a requirement to your project's
-`composer.json`:
-
-```bash
-composer require ramsey/uuid
-```
-
-
-## Upgrading to Version 4
-
-See the documentation for a thorough upgrade guide:
-
-* [Upgrading ramsey/uuid Version 3 to 4](https://uuid.ramsey.dev/en/latest/upgrading/3-to-4.html)
-
-
-## Documentation
-
-Please see <https://uuid.ramsey.dev> for documentation, tips, examples, and
-frequently asked questions.
-
+Documentation for Sail can be found on the [Laravel website](https://laravel.com/docs/sail).
 
 ## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md][] for details.
+Thank you for considering contributing to Sail! You can read the contribution guide [here](.github/CONTRIBUTING.md).
 
+## Code of Conduct
 
-## Copyright and License
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-The ramsey/uuid library is copyright © [Ben Ramsey](https://benramsey.com/) and
-licensed for use under the MIT License (MIT). Please see [LICENSE][] for more
-information.
+## Security Vulnerabilities
 
+Please review [our security policy](https://github.com/laravel/sail/security/policy) on how to report security vulnerabilities.
 
-[rfc4122]: http://tools.ietf.org/html/rfc4122
-[conduct]: https://github.com/ramsey/uuid/blob/master/.github/CODE_OF_CONDUCT.md
-[javauuid]: http://docs.oracle.com/javase/6/docs/api/java/util/UUID.html
-[pyuuid]: http://docs.python.org/3/library/uuid.html
-[composer]: http://getcomposer.org/
-[contributing.md]: https://github.com/ramsey/uuid/blob/master/.github/CONTRIBUTING.md
+## License
 
-[badge-source]: https://img.shields.io/badge/source-ramsey/uuid-blue.svg?style=flat-square
-[badge-release]: https://img.shields.io/packagist/v/ramsey/uuid.svg?style=flat-square&label=release
-[badge-license]: https://img.shields.io/packagist/l/ramsey/uuid.svg?style=flat-square
-[badge-php]: https://img.shields.io/packagist/php-v/ramsey/uuid.svg?style=flat-square
-[badge-build]: https://img.shields.io/travis/ramsey/uuid/master.svg?style=flat-square
-[badge-coverage]: https://img.shields.io/coveralls/github/ramsey/uuid/master.svg?style=flat-square
-[badge-downloads]: https://img.shields.io/packagist/dt/ramsey/uuid.svg?style=flat-square&colorB=mediumvioletred
-
-[source]: https://github.com/ramsey/uuid
-[release]: https://packagist.org/packages/ramsey/uuid
-[license]: https://github.com/ramsey/uuid/blob/master/LICENSE
-[php]: https://php.net
-[build]: https://travis-ci.org/ramsey/uuid
-[coverage]: https://coveralls.io/github/ramsey/uuid?branch=master
-[downloads]: https://packagist.org/packages/ramsey/uuid
+Laravel Sail is open-sourced software licensed under the [MIT license](LICENSE.md).
